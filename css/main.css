@@ -1,0 +1,148 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+}
+
+body
+{
+	font-family: Tahoma;
+	font-size: 11pt;
+	font-weight: lighter;
+	background-color: GhostWhite;
+}
+
+nav
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+section
+{
+	width: 800px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 94%;
+	box-sizing: border-box;
+	padding-bottom: 90px;
+}
+
+article
+{
+	float: left;
+	margin-right: 200px;
+	padding-right: 30px;
+	padding-bottom: 60px;
+}
+
+aside
+{
+	width: 200px;
+	position: absolute;
+	right: 0;
+	float: right;
+}
+
+footer
+{
+	width: 960px;
+	margin: 0 auto;
+	height: 60px;
+	margin-top: -60px;
+	text-align: center;
+}
+
+.menu_main
+{
+	text-transform: uppercase;
+	font-family: Impact;
+	font-size: 14pt;
+ 	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: DarkCyan;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.menu_main li
+{
+	display: inline-block;
+	margin: 5px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.menu_main li::before
+{
+	font-family: "Wingdings";
+	content: attr(data-content);
+	color: white;
+}
+
+.menu_main li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.active a
+{
+	border-bottom: 2px solid white;
+}
+
+.clear_both
+{
+	clear: both;
+}
+
+.tree
+{
+	list-style: none;
+	padding: 0px;
+	margin-left: 16px;
+}
+
+.tree li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.tree li a:hover
+{
+	text-decoration: underline;
+}
+
+.expand::before
+{
+	content: "▼";
+}
+
+.collapse::before
+{
+	content: "►";
+}
+
+img
+{
+	width: 100%;
+}
+
+p
+{
+	text-indent: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+hr
+{
+	border: none;
+	color: DarkCyan;
+	background-color: DarkCyan;
+	height: 2px;
+}

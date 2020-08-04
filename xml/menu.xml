@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/menu.xsl"?>
+
+<items>
+	<item text="Главная" link="index.html">
+	</item>
+	<item text="Статьи" link="articles.html">
+	</item>
+	<item text="Помощь" link="help.html">
+	</item>
+</items>

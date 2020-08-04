@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<node text="Вопросы" link="#">
+	<node text="Админ-панель" link="?label=admin" />
+	<node text="Структура блога" link="?label=blog" />
+	<node text="Мобильная версия" link="?label=mobile" />
+	<node text="Раскрутка сайта" link="?label=site" />
+	<node text="Комментарии к постам" link="?label=comment" />
+	<node text="Что можно менять" link="?label=edit" />
+	<node text="Что означают стрелки" link="?label=arrows" />
+</node>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<node text="Сайт" link="#">
+	<node text="Контент" link="#">
+		<node text="Древовидное меню" link="?label=menu" />
+		<node text="Текст" link="?label=text" />
+		<node text="Заголовок" link="?label=head" />
+		<node text="Изображения" link="?label=pictures" />
+		<node text="Спец-символы" link="?label=symbols" />
+	</node>
+	<node text="Специфика" link="#">
+		<node text="Это нельзя" link="?label=ban" />
+		<node text="Кодировка символов" link="?label=encoding" />
+		<node text="Валидность документа" link="?label=valid" />
+	</node>
+</node>
